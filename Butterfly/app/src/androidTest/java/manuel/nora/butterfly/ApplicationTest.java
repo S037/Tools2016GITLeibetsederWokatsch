@@ -21,10 +21,9 @@ public class ApplicationTest extends ApplicationTestCase<Application> {
 	int a = 0;
 	int c = 22;
 	b = a + c;
-	String q = "stringedistringstring";
-        String outPut = " ";
+	String q = " ";
         for (int i = 0; i < 5; i++){
-          outPut += "- ";
+            q += "- ";
         }
     }
 }
