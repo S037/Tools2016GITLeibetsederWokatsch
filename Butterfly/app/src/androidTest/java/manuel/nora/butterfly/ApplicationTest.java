@@ -9,6 +9,12 @@ import android.test.ApplicationTestCase;
 public class ApplicationTest extends ApplicationTestCase<Application> {
     public ApplicationTest() {
         super(Application.class);
+	
+	int a = 0;
+	int b = 1;
+	int c = a + b;
+	
+	String d = "I'm a FANCEY git string :-)";
     }
     
     public void thisIsANewMethod() { }
