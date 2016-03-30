@@ -22,5 +22,9 @@ public class ApplicationTest extends ApplicationTestCase<Application> {
 	int c = 22;
 	b = a + c;
 	String q = "stringedistringstring";
+        String outPut = " ";
+        for (int i = 0; i < 5; i++){
+          outPut += "- ";
+        }
     }
 }
