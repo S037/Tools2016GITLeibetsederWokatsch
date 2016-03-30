@@ -13,18 +13,21 @@ public class ApplicationTest extends ApplicationTestCase<Application> {
 	int a = 0;
 	int b = 1;
 	int c = a + b;
+	int f = c * a + b;
 	
-	String d = "I'm a FANCEY git string :-)";
+	String d = "I'm a FANCEY git string :-)" + f;
     }
     
     public void thisIsANewMethod() {
 	int a = 0;
 	int c = 22;
-	b = a + c;
+	int gug = 103 + a - c;
+	int b = a + c;
 	String q = "stringedistringstring";
         String outPut = " ";
         for (int i = 0; i < 5; i++){
           outPut += "- ";
+          outPut += (i - gug);
         }
     }
 }
