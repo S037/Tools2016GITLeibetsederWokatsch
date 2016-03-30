@@ -17,5 +17,10 @@ public class ApplicationTest extends ApplicationTestCase<Application> {
 	String d = "I'm a FANCEY git string :-)";
     }
     
-    public void thisIsANewMethod() { }
+    public void thisIsANewMethod() { 
+      String outPut = " ";
+      for (int i = 0; i < 5; i++){
+        outPut += "- ";
+      }
+    }
 }
