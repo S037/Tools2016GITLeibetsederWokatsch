@@ -17,5 +17,10 @@ public class ApplicationTest extends ApplicationTestCase<Application> {
 	String d = "I'm a FANCEY git string :-)";
     }
     
-    public void thisIsANewMethod() { }
+    public void thisIsANewMethod() {
+	int a = 0;
+	int c = 22;
+	b = a + c;
+	String q = "stringedistringstring";
+    }
 }
