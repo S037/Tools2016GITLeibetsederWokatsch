@@ -1,0 +1,6 @@
+### Java ###
+*.class
+
+### Directories ###
+bin/
+gen/
