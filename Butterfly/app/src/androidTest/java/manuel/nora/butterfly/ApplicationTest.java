@@ -24,10 +24,8 @@ public class ApplicationTest extends ApplicationTestCase<Application> {
 	int gug = 103 + a - c;
 	int b = a + c;
 	String q = "stringedistringstring";
-        String outPut = " ";
         for (int i = 0; i < 5; i++){
-          outPut += "- ";
-          outPut += (i - gug);
+            q += "- ";
         }
     }
 }
